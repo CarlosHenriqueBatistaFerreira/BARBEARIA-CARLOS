@@ -226,3 +226,27 @@ td, th{
 .imagem-beneficios{
   width: 50%;
 }
+
+.Titulo-principal:first-letter{
+  color: red;
+}
+
+p:first-line{
+  font-size: italic;
+}
+
+.Titulo-principal:before{
+  content: "[";
+}
+
+.Titulo-principal:after{
+  content: "]";
+}
+
+.item:before{
+  content: 
+}
+
+.item:first-child{
+  font-weight: bold;
+}
